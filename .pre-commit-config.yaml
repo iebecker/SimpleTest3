@@ -1,0 +1,11 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0  # Use the latest stable version
+    hooks:
+      - id: trailing-whitespace
+      - id: check-yaml
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 6.1.0  # Use the latest stable version of flake8
+    hooks:
+      - id: flake8
